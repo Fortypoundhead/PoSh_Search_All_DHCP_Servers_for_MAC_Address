@@ -19,13 +19,13 @@ Run the script with the MAC address as a parameter. The MAC address can be in co
 ```
 
 The script will:
-1. Query Active Directory for all DHCP servers in the specified OU (`OU=DHCP,OU=Servers,DC=domain,DC=com`)
+1. Query Active Directory for all DHCP servers ~~in the specified OU (`OU=DHCP,OU=Servers,DC=domain,DC=com`)~~
 2. Search each DHCP server for active leases matching the provided MAC address
 3. Display the results for each server
 
 ## Configuration
 
-The script is hardcoded to search DHCP servers in `OU=DHCP,OU=Servers,DC=domain,DC=com`. You may need to modify this path to match your domain structure.
+~~The script is hardcoded to search DHCP servers in `OU=DHCP,OU=Servers,DC=domain,DC=com`. You may need to modify this path to match your domain structure.~~
 
 ## License
 
